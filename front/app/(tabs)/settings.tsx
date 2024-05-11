@@ -4,10 +4,10 @@ import React from 'react';
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-const Home = () => {
+const Settings = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
+      <Text style={styles.text}>Settings</Text>
     </View>
   );
 };
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   container: {
     height: windowHeight,
     width: windowWidth,
-    backgroundColor: 'pink',
+    backgroundColor: '#3da5d9',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Settings;
